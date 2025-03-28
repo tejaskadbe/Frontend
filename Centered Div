@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div with Flexbox</title>
+    <style>
+        /* Style for the body to use flexbox for centering */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightblue; /* Background color for the body */
+        }
+
+        /* Style for the container div */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80%;
+            height: 80%;
+            background-color: lightgreen; /* Background color for the container */
+        }
+
+        /* Style for the centered div */
+        .centered-div {
+            width: 200px;
+            height: 200px;
+            background-color: coral; /* Background color for the centered div */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="centered-div">
+            Centered Div
+        </div>
+    </div>
+
+</body>
+</html>
